@@ -19,8 +19,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(top.png);
-  background-size: cover;
+  background-color: rgba(34,49,52,0.9);
   color: white;
   text-align: center;
 }
@@ -79,18 +78,10 @@ header {
   height: 65px;
   width: 100%;
   background-color: rgba(34,49,52,0.9);
+  text-align: center;
   position :fixed;
   top: 0;
   z-index: 10;
-}
-
-.logo {
-  width: 124px;
-  margin-top: 20px;
-}
-
-.header-left {
-  float: left;
 }
 
 .header-right {
@@ -98,16 +89,16 @@ header {
   margin-right: -25px;
 }
 
-.header-right a {
+.header-text a {
   line-height: 65px;
   padding: 0 25px;
   color: white;
-  display: block;
-  float: left;
+  display: inline-block;
+
   transition: all 0.5s;
 }
 
-.header-right a:hover {
+.header-text a:hover {
   background-color: rgba(255,255,255,0.3);
 }
 
@@ -269,3 +260,4 @@ footer {
     width: 100%;
   }
 }
+
