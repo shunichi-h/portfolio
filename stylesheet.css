@@ -33,14 +33,14 @@ body {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(240, 248, 255, 0.8);
+  background-color: rgba(105, 105, 105, 0.8);
   text-align: center;
   position: fixed;
   z-index: 10;
 }
 
 .header-text {
-  transition: all 0.5s;
+
 
 }
 
@@ -49,6 +49,9 @@ header {
   width:30%;
   display: inline-block;
   line-height: 65px;
+  text-decoration: none;
+  letter-spacing: 5px;
+  transition: all 1s;
 }
 
 .header-text a:hover {
@@ -79,7 +82,7 @@ header {
 
 .profile-text {
   float: left;
-  width: 50%;
+  width: 60%;
   margin-left: 50px;
 }
 
@@ -109,6 +112,7 @@ header {
 
 .skill-text {
   margin: 30px 20px;
+  text-align: left;
 }
 
 .fa-skill {
