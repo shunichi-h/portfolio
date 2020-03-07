@@ -1,1 +1,212 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+/*common */
+.container {
+  width: 100%;
+  max-width: 1170px;
+  padding: : 0 15px;
+  margin: 0 auto;
+}
+
+.heading  {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.heading h2 {
+  border-bottom: 1px solid black;
+  font-size: 30px;
+
+}
+
+.clear {
+  clear: left;
+}
+
+/*header */
+header {
+  height: 65px;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  position: fixed;
+  z-index: 10;
+}
+
+.header-text a {
+  color: white;
+  width:30%;
+  display: inline-block;
+  line-height: 65px;
+  text-decoration: none;
+  letter-spacing: 5px;
+  transition: all 1s;
+}
+
+.header-text a:hover {
+  background-color: #696969;
+}
+
+/*top-wrapper */
+
+.top-wrapper {
+  background-color: #b0c4de;
+  padding: 200px 0 120px 0;
+  text-align: center;
+}
+
+.top {
+  border: 1px solid black;
+  box-shadow: 10px 10px black;
+  width: 80%;
+  display: inline-block;
+  padding: 0 30px ;
+}
+
+.top-wrapper h1 {
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+
+/*profile-wrapper */
+
+.profile-wrapper {
+  background-color: #778899;
+  padding-bottom: 50px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile-image {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+
+.profile-image  img {
+  width: 200px;
+  border-radius: 15px;
+
+}
+
+.profile-text {
+  width: 60%;
+  padding: 0 10px;
+  margin-left: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+/*skill-wrapper */
+
+.skill-wrapper {
+  background-color: #b0c4de;
+  padding-bottom: 50px;
+}
+
+.skill {
+  float: left;
+  width:50%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.skill-icon {
+  float: left;
+  width: 30%;
+  display: inline-block;
+}
+
+.skill-icon p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.fa-skill {
+  font-size: 100px;
+}
+
+.skill-text {
+  float: left;
+  width: 70%;
+  text-align: left;
+  display: inline-block;
+  margin-top: 70px;
+  padding: 0 10px;
+}
+
+
+
+/*contact-wrapper */
+
+.contact-wrapper {
+  background-color: #778899;
+  padding-bottom: 50px;
+
+}
+
+.contact-message {
+  text-align: center;
+  padding: 0 30px;
+  margin-bottom: 20px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact-icon {
+  width: 30%;
+  display: inline-block;
+  margin-bottom: 50PX;
+}
+
+.contact-icon a {
+  padding: 20px;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+}
+
+
+.contact-icon p {
+  margin-bottom: 20px;
+}
+
+
+/*pagetop-wrapper */
+.pagetop-wrapper {
+  background-color: #b0c4de;
+  text-align: center;
+}
+
+.pagetop-wrapper  a{
+  display: block;
+  color: black;
+  text-decoration: none;
+
+}
+
+/*footer */
+footer {
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+
+
+
+footer p {
+  color: white;
+}
