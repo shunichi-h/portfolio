@@ -28,10 +28,13 @@
 /*profile-wrapper */
 
 .profile-image {
-  float: left;
-  text-align: center;
+  width: 100%;
 }
 
+.profile-text {
+  width: 100%;
+  margin-left: 0;
+}
 
 /*skill-wrapper */
 
@@ -57,4 +60,3 @@
 
 
 }
-
