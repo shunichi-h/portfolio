@@ -1,1 +1,67 @@
 
+@media screen and (max-width:767px) {
+/*common */
+.heading h2 {
+  font-size: 18px;
+}
+
+
+/*header */
+
+
+
+/*top-wrapper */
+
+.top {
+  margin: 0 5px;
+}
+
+.top-wrapper h1 {
+  font-size: 25px;
+}
+
+.top-wrapper h2 {
+  font-size: 15px;
+}
+
+
+/*profile-wrapper */
+
+.profile-image {
+  width: 100%;
+}
+
+.profile-text {
+  width: 100%;
+  margin-left: 0;
+  padding: 0 20px;
+}
+
+/*skill-wrapper */
+
+.skill {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+
+/*contact-wrapper */
+.contact-icon {
+  width: 30%;
+}
+
+
+/*footer */
+footer p {
+  font-size: 5px;
+}
+
+
+
+
+
+
+}
