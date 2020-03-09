@@ -1,1 +1,111 @@
 
+@media screen and (max-width:790px) {
+
+  /*common */
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  /*header */
+
+  /*top-wrapper */
+  .top {
+    margin: 0 5px;
+  }
+
+  .top-wrapper h1 {
+    font-size: 25px;
+  }
+
+  .top-wrapper h2 {
+    font-size: 15px;
+  }
+
+  /*profile-wrapper */
+  .profile-image {
+    width: 100%;
+  }
+
+  .profile-text {
+    width: 100%;
+    margin-left: 0;
+    padding: 0 20px;
+  }
+
+  /*skill-wrapper */
+  .skill {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 20px;
+  }
+
+  .fa-star {
+    font-size: 13px;
+  }
+
+  /*contact-wrapper */
+  .contact-icon {
+    width: 30%;
+  }
+
+  /*footer */
+  footer p {
+    font-size: 10px;
+  }
+
+}
+
+@media screen and (max-width:640px) {
+
+  /*common */
+
+  /*header */
+
+  /*top-wrapper */
+
+  /*profile-wrapper */
+
+  /*skill-wrapper */
+  .skill-icon {
+    width: 100%;
+  }
+
+  .skill-text {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  /*contact-wrapper */
+
+  /*footer */
+
+}
+
+@media screen and (max-width:374px) {
+
+  /*common */
+
+  /*header */
+  .header-text a {
+    font-size: 13px;
+  }
+
+  /*top-wrapper */
+  .top-wrapper h1 {
+    font-size: 20px;
+  }
+
+  /*profile-wrapper */
+
+  /*skill-wrapper */
+
+  /*contact-wrapper */
+  .contact-icon {
+    width: 50%;
+  }
+
+  /*footer */
+
+}
