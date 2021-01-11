@@ -50,6 +50,18 @@
     width: 30%;
   }
 
+  .contact label {
+    width: 80%;
+  }
+  
+  .contact input {
+    width: 80%;
+  }
+  
+  .contact textarea {
+    width: 80%;
+  }
+
   /*footer */
   footer p {
     font-size: 10px;
@@ -62,6 +74,9 @@
   /*common */
 
   /*header */
+  .header-text a {
+    font-size: 12px;
+  }
 
   /*top-wrapper */
 
@@ -77,19 +92,25 @@
     margin-top: 15px;
   }
 
+  /*works-wrapper */
+  .work {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
   /*contact-wrapper */
 
   /*footer */
 
 }
 
-@media screen and (max-width:374px) {
+@media screen and (max-width:380px) {
 
   /*common */
 
   /*header */
   .header-text a {
-    font-size: 13px;
+    font-size: 10px;
   }
 
   /*top-wrapper */
@@ -104,6 +125,18 @@
   /*contact-wrapper */
   .contact-icon {
     width: 50%;
+  }
+
+  .contact label {
+    width: 100%;
+  }
+  
+  .contact input {
+    width: 100%;
+  }
+  
+  .contact textarea {
+    width: 100%;
   }
 
   /*footer */
